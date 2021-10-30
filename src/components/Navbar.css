@@ -1,0 +1,72 @@
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20232a;
+    height:70px;
+}
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width:1024px;
+}
+
+#navbar-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logoImage {
+    height:50px;
+    margin-left:8px;
+    padding-right: 8px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Simplifica_400;
+    letter-spacing: 2px;
+}
+a:hover {
+    color:#5cc2ce !important;
+}
+h2 {
+    margin-top: initial !important;
+    margin-bottom: initial !important;
+    font-weight: 800 !important;
+    line-height: initial !important;
+}
+
+#center-links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width:600px;
+}
+@media (max-width:1200px) { 
+    #leaderboard{
+        margin-left: auto;
+        order: 2;
+        padding-right: 25px;
+    }
+}
+@media (max-width:600px) { 
+    #leaderboard{
+        margin-left: auto;
+        order: 2;
+        padding-right: 5px !important;
+        letter-spacing: 1px;
+    }
+}
+
+#scrollableTable{
+    overflow-y:scroll;
+    max-height:500px;
+}
+
+#noRecordsText{
+    text-align: center;
+}

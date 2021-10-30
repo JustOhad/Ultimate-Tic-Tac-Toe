@@ -1,0 +1,20 @@
+html {
+  min-height: 100%;
+}
+@keyframes hide-scroll {
+  from, to { overflow: hidden; } 
+}
+body {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #dddbd1;
+  background-image: linear-gradient(180deg,#dddbd1,#d2dbdc);
+  background-repeat: no-repeat;
+  animation: hide-scroll 0.3s backwards;
+}
+
+@font-face {
+  font-family: Simplifica_400;
+  src: url("fonts/Simplifica_400.ttf");
+}
